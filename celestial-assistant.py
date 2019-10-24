@@ -10,4 +10,3 @@ astrometric = earth.at(t).observe(mars)
 ra, dec, distance = astrometric.radec()
 
 print("Distance of earth and mars", distance)
-
