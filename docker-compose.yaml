@@ -2,6 +2,8 @@ version: '3'
 services:
   jupyter:
     build: .
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
     ports:
       - '8888:8888'
     volumes:
